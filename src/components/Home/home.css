@@ -1,0 +1,29 @@
+.img-wrap{
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 50px;
+
+}
+.shopping-item-img{
+  width: 200px;
+  height: 200px;
+  background-size: 240px;
+  background-position: center center;
+}
+
+.shopping-item-btn{
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+  line-height: 50px;
+  border-radius: 8px;
+}
+.active{
+  background-color: #eee;
+  color: #000;
+}

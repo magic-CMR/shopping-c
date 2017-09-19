@@ -1,0 +1,51 @@
+.Settlement{
+
+}
+.Settlement-price{
+  width: 300px;
+  margin: 0 auto;
+  height: 100px;
+  line-height: 100px;
+  color: #fff;
+  background-color: orange;
+  border-radius: 12px;
+}
+.Settlement-items{
+  width: 300px;
+  margin: 0 auto;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+.Settlement-item{
+  display: flex;
+  padding: 5px;
+}
+.Settlement-item-img{
+  width: 60px;
+  height: 60px;
+  background-size: 100px;
+  background-position: center center;
+}
+.Settlement-item-info{
+  flex: 1;
+}
+.Settlement-item-num{
+  width: 50px;
+  display: flex;
+  line-height: 60px;
+  justify-content: space-between;
+}
+.Settlement-item-num-increment{
+  cursor: pointer;
+}
+.Settlement-item-num-decrement{
+  cursor: pointer;
+}
+.Settlement-price{
+  text-align: center;
+  font-size: 24px;
+}
